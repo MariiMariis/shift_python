@@ -9,7 +9,7 @@ try:
 
     mySql_insert_query = """INSERT INTO Laptop (Id, Name, Price, Purchase_date) 
                            VALUES 
-                           (15, 'Lenovo ThinkPad P71', 6459, '2019-08-14') """
+                           (16, 'Lenovo ThinkPad L340', 6000, '2022-09-24') """
 
     cursor = connection.cursor()
     cursor.execute(mySql_insert_query)
